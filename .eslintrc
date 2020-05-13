@@ -1,0 +1,17 @@
+{
+    "extends": "fortech-react",
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "react/prop-types": 0,
+        "indent": 0,
+        "quotes": 0,
+        "no-multi-spaces": 0,
+        "space-in-parens": 0,
+        "react/jsx-indent": 0,
+        "react/jsx-curly-spacing": 0,
+        "jsx-a11y/label-has-for": 0
+    }
+}
