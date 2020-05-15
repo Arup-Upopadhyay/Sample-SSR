@@ -17,6 +17,12 @@ const Contact = () => (
                 <label htmlFor="age">Age</label>
                 <input type="text" id="age" placeholder="Enter Age" />
             </div>
+            <div>
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email" />
+            </div>
+
+
                 <input type="submit"  value="Submit" />
         </div>
     </div>
