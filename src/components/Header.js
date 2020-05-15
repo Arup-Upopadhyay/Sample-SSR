@@ -7,6 +7,7 @@ const Header = ( { loggedIn } ) => (
         <Link to="/" className="link">Home</Link>
         <Link to="/about" className="link">About</Link>
         <Link to="/contact" className="link">Contact</Link>
+        <Link to="/ui-components" className="link">UI-Components</Link>
         { loggedIn && <Link to="/secret" className="link">Secret</Link> }
     </div>
 );

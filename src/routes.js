@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Secret from "./components/Secret";
+import UIComponents from "./components/UIComponents";
 
 export default [
     {
@@ -17,6 +18,11 @@ export default [
     {
         path: "/contact",
         component: Contact,
+        exact: true,
+    },
+    {
+        path: "/ui-components",
+        component: UIComponents,
         exact: true,
     },
     {
