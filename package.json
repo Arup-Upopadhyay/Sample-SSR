@@ -8,9 +8,7 @@
     "dev": "better-npm-run dev",
     "server": "nodemon index.js",
     "client": "webpack --watch --progress",
-    "linter": "eslint src",
-    "bundlesize": "bundlesize",
-    "precommit": "eslint src --quiet"
+    "linter": "eslint src"
   },
   "betterScripts": {
     "dev": {
