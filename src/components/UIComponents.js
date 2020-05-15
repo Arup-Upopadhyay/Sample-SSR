@@ -60,8 +60,18 @@ function Countries () {
 const CheckBox = () => {
     return (
         <div>
+            <div>
               <label htmlFor="hungry">Are you Hungry:</label>
               <input type="checkbox" name="hungry" id="hungry"/>
+             </div>
+             <div>
+              <label htmlFor="sleepy">Are you Sleepy:</label>
+              <input type="checkbox" name="sleepy" id="sleepy"/>
+             </div>
+             <div>
+             <label htmlFor="quarintined">Are you quarintined:</label>
+              <input type="checkbox" name="quarintined" id="quarintined"/>
+             </div>  
         </div>
     );
 }
