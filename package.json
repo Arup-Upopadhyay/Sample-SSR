@@ -12,10 +12,7 @@
   },
   "betterScripts": {
     "dev": {
-      "command": "npm-run-all --parallel server client",
-      "env": {
-        "NODE_ENV": "development"
-      }
+      "command": "npm-run-all --parallel server client"
     }
   },
   "dependencies": {
