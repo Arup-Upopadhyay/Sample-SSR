@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "NODE_ENV=production webpack --progress",
-    "dev": "better-npm-run dev",
+    "start": "better-npm-run dev",
     "server": "nodemon index.js",
     "client": "webpack --watch --progress",
     "linter": "eslint src"
