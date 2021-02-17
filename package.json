@@ -14,8 +14,7 @@
     "dev": {
       "command": "npm-run-all --parallel server client",
       "env": {
-        "NODE_ENV": "development",
-        "PORT": "3000"
+        "NODE_ENV": "development"
       }
     }
   },
