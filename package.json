@@ -11,7 +11,7 @@
     "linter": "eslint src"
   },
   "betterScripts": {
-    "dev": {
+    "dev":  {
       "command": "npm-run-all --parallel server client"
     }
   },
