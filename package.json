@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production webpack --progress",
     "start": "better-npm-run dev",
     "server": "nodemon index.js",
-    "client": "webpack --watch --progress",
+    "client": "webpack --progress",
     "linter": "eslint src"
   },
   "betterScripts": {
